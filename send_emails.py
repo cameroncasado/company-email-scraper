@@ -5,10 +5,13 @@ import os
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 
-# fromEmail - your email
+# fromEmail - casadocameron777@gmail.com
 # email - passing emails from csv
-# subject - the email subject line
-# message - pass in your email message
+# subject - Hello
+# message - Hi, I really love your company and am kindly asking if you could send me some freebies
+Thank you,
+Cameron
+My address is 4853 Marrieta Street, Jurupa Valley, CA, 91752
 
 
 def send_email(fromEmail, email, subject, message):
